@@ -68,7 +68,7 @@ const PortfolioNew = () => {
 
       <div className="w-full mt-64 mx-auto">
         <div className="flex flex-col sm:flex-row justify-evenly gap-16 w-[90%] mx-auto">
-          <button className="p-6 bg-gradient-to-r from-purple-700 via-blue-500 to-purple-400 rounded-lg text-black font-bold hover:scale-110 duration-300"><a href="https://lonely-teddy-newt.cyclic.app" target="_blank"
+          <button className="p-6 bg-gradient-to-r from-purple-700 via-blue-500 to-purple-400 rounded-lg text-black font-bold hover:scale-110 duration-300"><a href="https://kavita-boutique-backend.onrender.com/" target="_blank"
               rel="noreferrer" className="flex justify-center items-center gap-2"><IoIosLink className="w-8 h-8"/> Kavita Boutique Backend Live Link</a></button>
 
           <button className="p-6 bg-gradient-to-r from-purple-700 via-blue-500 to-purple-400 rounded-lg text-black font-bold hover:scale-110 duration-300"><a href="https://github.com/Anmolsoni7910/Kavita-Boutique-Backend" target="_blank"
