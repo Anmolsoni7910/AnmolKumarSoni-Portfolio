@@ -10,9 +10,9 @@ import { Link } from "@mui/material";
 
 const actions = [
   { icon: <LinkedInIcon />, name: "LinkedIn.",href:"http://linkedin.com" },
-  { icon: <GitHubIcon />, name: "Github",href: "http://github.com" },
-  { icon: <EmailIcon />, name: "Email",href: "mailto:foo@gmail.com" },
-  { icon: <AssignmentIndIcon />, name: "Resume", href:"https://mui.com/material-ui/react-link/" },
+  { icon: <GitHubIcon />, name: "Github",href: "https://github.com/Anmolsoni7910" },
+  { icon: <EmailIcon />, name: "Email",href: "mailto:anmolsoni7910@gmail.com" },
+  { icon: <AssignmentIndIcon />, name: "Resume", href:"public/AnmolKumarSoni-Resume-FInal - Google Docs.pdf" },
 ];
 
 const openUrl = (url) => {
