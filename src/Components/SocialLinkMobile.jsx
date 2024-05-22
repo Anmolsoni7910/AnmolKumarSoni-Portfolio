@@ -9,7 +9,7 @@ import AssignmentIndIcon from "@mui/icons-material/AssignmentInd";
 import { Link } from "@mui/material";
 
 const actions = [
-  { icon: <LinkedInIcon />, name: "LinkedIn.",href:"http://linkedin.com" },
+  { icon: <LinkedInIcon />, name: "LinkedIn.",href:"https://www.linkedin.com/in/anmol-soni-050970157" },
   { icon: <GitHubIcon />, name: "Github",href: "https://github.com/Anmolsoni7910" },
   { icon: <EmailIcon />, name: "Email",href: "mailto:anmolsoni7910@gmail.com" },
   { icon: <AssignmentIndIcon />, name: "Resume", href:"https://res.cloudinary.com/djsbgjc6w/image/upload/v1716399784/qqvrrzjf0agtbfml2jwf.jpg" },
