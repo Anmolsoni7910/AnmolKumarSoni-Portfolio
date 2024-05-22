@@ -7,6 +7,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { FaGithub } from "react-icons/fa";
 import { SiPostman } from "react-icons/si";
 import { IoIosLink } from "react-icons/io";
+import postmanCollection from '../../public/Kavita boutique backend.postman_collection.json';
 
 const PortfolioNew = () => {
   const container = useRef(null);
@@ -74,7 +75,7 @@ const PortfolioNew = () => {
           <button className="p-6 bg-gradient-to-r from-purple-700 via-blue-500 to-purple-400 rounded-lg text-black font-bold hover:scale-110 duration-300"><a href="https://github.com/Anmolsoni7910/Kavita-Boutique-Backend" target="_blank"
               rel="noreferrer" className="flex justify-center items-center gap-2"><FaGithub className="w-8 h-8"/> Kavita Boutique Backend Github Code</a></button>
           
-          <button className="p-6 bg-gradient-to-r from-purple-700 via-blue-500 to-purple-400 rounded-lg text-black font-bold hover:scale-110 duration-300"><a href="public/Kavita boutique backend.postman_collection.json" download={true} target="_blank" rel="noreferrer" className="flex justify-center items-center gap-2"><SiPostman className="w-8 h-8"/> Postman Collection Download</a></button>
+          <button className="p-6 bg-gradient-to-r from-purple-700 via-blue-500 to-purple-400 rounded-lg text-black font-bold hover:scale-110 duration-300"><a href={postmanCollection} download={true} target="_blank" rel="noreferrer" className="flex justify-center items-center gap-2"><SiPostman className="w-8 h-8"/> Postman Collection Download</a></button>
         </div>
       </div>
     </div>
