@@ -40,7 +40,7 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "public/AnmolKumarSoni-Resume-FInal - Google Docs.pdf",
+      href: "public/resume.pdf",
       style: "rounded-br-md",
       download: true,
     },
